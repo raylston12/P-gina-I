@@ -11,21 +11,66 @@
     <script type="text/javascript" src="users.js"></script>
 
 <style>
-    #centralizar {
+    #link {
+        position: absolute;
+        top: 95%;
+        left: 8.5%;
+        transform: translate(-50%, -50%);
+}
+</style>
+
+
+<style>
+    #baixar {
+        position: absolute;
+        top: 95%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+}
+</style>
+
+
+<style>
+    #discord {
+        position: absolute;
+        top: 95%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+}
+</style>
+
+
+<style>
+    #img {
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 80%;
         transform: translate(-50%, -50%);
 }
 </style>
+
+
 <style>
-    #top {
+    #img-II {
         position: absolute;
-        top: 60%;
-        left: 50%;
+        top: 50%;
+        left: 33%;
         transform: translate(-50%, -50%);
 }
 </style>
+
+
+<style>
+    #titulo {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:rgba(255, 72, 0, 0.911);
+}
+</style>
+
+
 <style>
     .btn {
         font-family: arial;
@@ -35,12 +80,11 @@
         border: nome;
         padding: 10xp;
         cursor: pointer;
-}
-
-    .btn-green:hover {
-        background: #006000;
+}      
+        .btn-green:hover {
+        background:rgb(27, 27, 27);
         color: #fff;
-        box-shadow: 0 5px 0 #006000;
+        box-shadow: 0 5px 0 black;
 }
 
     .btn-green:active {
@@ -53,29 +97,45 @@
 
 <body style="background-color:darkslategray">
 
-<div style="text-align: center;">
-        
-    <h1>GitHub</h1> <img src="img.png" alt="img.png" height="100">
-
-</div>
-
-
-<div id="centralizar">
+<div id="link">
        
-    <button class="btn btn-green" onclick="clicou()">Link</button>
+    <button class="btn btn-green" onclick="clicou1()">GitHub</button>
 
 </div>
 
 
-<div id="top">
-    
-    <audio controls>
-    
-    <source src="audio.mp3" type="audio/mpeg">
-   
-    </audio>
+<div id="baixar">
+       
+    <button class="btn btn-green" onclick="clicou2()">Download</button>
+
+</div>
+
+
+<div id="discord">
+       
+    <button class="btn btn-green" onclick="clicou3()">Discord</button>
+
+</div>
+
+
+<div id="img">
+
+    <img src="C:\Users\ray\Documents\primeiro site\img/img.png" alt="tela" height="500"> 
+
+</div>    
+
+
+<div id="img-II">
+
+    <img src="C:\Users\ray\Documents\primeiro site\img/img-II.png" alt="tela" height="300"> 
+
+</div> 
+
+<div id="titulo">
+<h1>Minha primeira página</h1>
 </div>
 
 </body>
+
 
 </html>
